@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Click Counter Game</title>
+    <link rel="icon" href="save.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <h1>🔥 Click Counter Game 🔥</h1>
+      <p>How many times can you click the button in 10 seconds?</p>
+
+      <div class="score-display"><span id="score">0</span> Clicks</div>
+
+      <button id="click-btn" disabled>Start Clicking!</button>
+      <button id="start-btn">Start Game</button>
+
+      <p id="timer">Time Left: <span id="time">10</span> sec</p>
+      <p id="final-score"></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
